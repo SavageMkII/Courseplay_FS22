@@ -478,25 +478,35 @@ Per eliminare un percorso o una directory, fare clic sul pulsante Elimina e quin
 Le directory devono essere vuote se si desidera eliminarle.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Cliccando sul nome del veicolo si apre la pagina delle configurazioni del veicolo.
-B: Seleziona da dove iniziare il percorso con un clic.
-C: Cliccando sul nome del percorso si aprirà il Menu IA con il generatore di percorsi aperto.
-D: Avvia il lavoratore del Courseplay.
-E: Mostra il punto corrente/i punti totali. Click to open the course manager.
-F: Cliccando sull'icona si apre la pagina delle impostazioni generali.
-G: Chiude la HUD.
-H: Diminuire e aumentare la larghezza di lavoro. Una linea rossa sul tuo veicolo mostra l'impostazione corrente.
-I: Valore per la correzione orizzontale, + a sinistra, - a destra.
-J: Copia e incolla un percorso su un altro veicolo.
-     Una volta premuto il pulsante copia, quando l'icona diventa verde, il percorso può essere incollato su un veicolo senza percorso.
-K e L: Facendo clic sul testo verranno ripristinate le modifiche ai valori automatici.
-M: Mostra il percorso copiato.
-N: Quest'area mostra la correzione della corsia se è stata caricata una rotta multiutensile. Cliccando sul testo si alternano le posizioni.
-O: Avvia/interrompi la registrazione di un corso sul campo personalizzato.
-P: Rimuove il porcorso dal veicolo
-Q: Modifica la visibilità del percorso tra: acceso, spento e solo start/stop.
-R: Rimuove dagli appunti il percorso copiato.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Campi personalizzati"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -649,6 +659,10 @@ Nella categoria avanzata ci sono:
 1) Un pennello per spostare più waypoint tra i waypoint selezionati.
 2) Un pennello per inserire una curva di waypoint tra i waypoint selezionati.
 3) Un pennello per impostare l'attributo virata di un waypoint (solo con una rotta e non un campo personalizzato).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

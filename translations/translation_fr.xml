@@ -474,25 +474,35 @@ Pour la suppression d'une course ou d'un dossier, cliquez simplement sur le bout
 Les dossiers doivent être vides avant de pouvoir être supprimés.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini ATH"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Cliquez sur le nom du véhicule pour ouvrir sa page de configuration.
-B: Cliquez sur le mode de démarrage pour le changer.
-C: Cliquez sur le nom de la course pour ouvrir le générateur de course.
-D: Cliquez sur l'icone play pour démarrer le courseplay.
-E: Affiche le point de passage actuel / points totaux. Cliquez pour ouvrir le gestionnaire de courses.
-F: Cliquez sur l'icone pour ouvrir les paramètres généraux.
-G: Ferme l'ATH.
-H: Augmente ou diminue la largeur de travail. Visible via une ligne rouge sur le véhicule.
-I: Valeur du décalage horizontal, + gauche, - droite.
-J: Copie / Colle une course vers un autre véhicule.
-     Depuis le véhicule contenant la course à copier, appuyez sur le bouton de copie puis rendez-vous dans le véhicule cible (qui ne doit pas avoir de course active) et appuyez sur l'icône verte permettant de coller la course.
-K and L: Cliquez sur le texte pour rétablir les valeurs automatiques.
-M: Affiche la course à copier.
-N: Affichage du décalage de rang lorsque vous avez chargé une course multi-outils. Cliquez sur le texte pour intervertir les positions.
-O: Démarrer/Arrêter l'enregistrement d'un contour de champ personnalisé.
-P: Réinitialiser la course active.
-Q: Change l'affichage de la course entre : aucun, tout, départ/arrivée uniquement.
-R: Efface la course copiée du presse papier.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Champs personnalisés"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -637,6 +647,10 @@ Dans la catégorie avancée :
 1) Le curseur de déplacement multiple permet de bouger les points entre les deux points sélectionnés.
 2) Le cruseur d'insertion de courbe permet de créer des points qui forment une courbe entre deux points sélectionnés.
 3) Le curseur de propriétés du point permet de déclarer le point sélectionné comme un point de demi-tour (uniquement sur une course, pas dans un champ personnalisé).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

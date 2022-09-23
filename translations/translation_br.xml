@@ -478,27 +478,35 @@ Para excluir uma rota ou pasta, clique no botão excluir e depois na pasta ou ro
 As pastas devem estar vazios se você quiser excluí-los.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Clicar no nome do veículo abrirá o menu de configuração do veículo.
-B: Seleciona o ponto inicial onde você deseja que o motorista comece.
-C: Clicar no nome da rota abrirá o menu AI.
-   Se o veículo estiver em um campo, as configurações do gerador de rotas também serão abertas.
-D: Inicia ou paraa o motorista. Se a cor for verde, o motorista CP está ativo.
-E: Mostra o waypoint atual/total de waypoints. Clicar nele abrirá o menu do gerenciador de rotas.
-F: Clicar neste ícone abre o menu de configurações globais.
-G: Fecha o HUD.
-H: Diminuir ou aumentar a largura de trabalho. Uma linha vermelha no seu veículo mostra o valor atual.
-I: Valor para deslocamento horizontal, + esquerda, - direita.
-J: Copie e cole uma rota em um veículo diferente.
-      Uma vez que o botão de cópia foi pressionado, a rota pode ser colado em um veículo sem rota quando o ícone fica verde.
-K e L: Clicar no texto irá redefinir suas alterações para os valores padrão.
-M: Mostra rota copiada.
-N: Esta área mostra o deslocamento da pista se você tiver uma rota multi implementos carregado para comboio.
-   Clicar no texto alterna as posições.
-O: Iniciar/parar a gravação de campos customizados.
-P: Remove a rota do veículo.
-Q: Altera a visibilidade da rota entre: apenas ligar, desligar e iniciar/parar.
-R: Remove a rota copiada da área de transferência.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Campo Customizado"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -652,6 +660,10 @@ Na categoria avançada estão:
 1) Um pincel para mover vários waypoints entre os waypoints selecionados.
 2) Um pincel para inserir uma curva de waypoints entre os waypoints selecionados.
 3) Um pincel para definir o atributo de curva de um waypoint (apenas em uma rota e não um campo customizado).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

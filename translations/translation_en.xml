@@ -477,28 +477,48 @@ For renaming you simply have to click the rename button and after that the direc
 For deleting a course or directory click on the delete button and after that the folder or course you want to delete.
 Directories must be empty if you want to delete them.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Clicking on the vehicle name will open the vehicle setting menu.
-B: Selects the starting point where you want the helper to start.
-C: Clicking on the course name will open the AI menu.
-     If the vehicle is on a field then the course generator settings will also be opened.
-D: Starts or stops the helper. If the color is green then the CP helper is active.
-E: Shows the current waypoint / total waypoints. Clicking on it will open the course manager menu.
-F: Clicking on this icon opens the global settings menu.
-G: Closes the HUD.
-H: Decrease or increase the working width. A red line on your vehicle shows the current value.
-I: Value for horizontal offset, + left, - right.
-J: Copy and paste a course to a different vehicle.
-     Once the copy button was pressed, then the course can be pasted into a vehicle without a course when the icon turns green.
-K and L: Clicking on the text will reset your changes to the default values.
-M: Shows the copied course.
-N: This area shows the lane offset if you have a multi tool course loaded for convoy. 
-     Clicking on the text toggles the positions.
-O: Start/stop the recording of custom fields.
-P: Removes the course from the vehicle.
-Q: Changes the course visibility between: on, off and start/stop only.
-R: Removes the copied course from the clipboard.
+    <text name="CP_help_page_minihud_title" text="Mini HUDs"/>
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+A: Durch das klicken auf den Text wird der Startpunkt durchgeschaltet.
+B: Zeigt &quot;kein Kurs&quot; oder den Namen des geladenen Kurses. Die beiden Striche rechts davon Zeigen den aktuellen Wegpunkt und die gesamtzahl der Wegpunkte vom Kurs. Durch anklicken der Striche, gelangt ihr in den Kursmanager.
+C: Hier könnt ihr die Arbeitsbreite anpassen, mit den Tasten + und - oder durch Scrollen mit dem Mausrad, solange der Mauszeiger auf der Zahl steht. Habt ihr euch vertan, setzt ihr die original erkannte Arbeitsbreite durch einen klick auf den Text zurück.
+D: Der horizontale Versatz wird genauso wie die Arbeitsbreite bedient.
+E: In dieser Zeile findet ihr die Kurs kopieren funktion. Ist ein Kurs im Fahrzeug geladen, könnt ihr diesen mit dem Icon rechts kopieren und er wird im HUD angezeigt. Danach könnt ihr den Kurs entweder aus der Zwischenablage entfernen, oder in belibig viele andere Fahrzeuge einfügen.
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+A: Der Ballen sammeln und wickeln Modus, kann mit oder ohne Kurs benutzt werden. Ist ein Kurs geladen, könnt ihr auch hier den Startpunkt durchschalten.
+B: Diese Zeile funktioniert genauso wie im Feldarbeitsmodus.
+C: Der Ballentyp bestimmt, ob ihr alle, nur gewickelte oder nur ungewickelte Ballen landen möchtet.
+D: Der horizontale Versatz wird genauso wie die Arbeitsbreite bei Feldarbeit bedient.
+E: Die kopierfunktion ist auch im Modus Ballen sammeln und wickeln verfügbar.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+A: Hier ist nur der Informationstext um den Modus an zu zeigen. (Drescher abtanken)
+B: Solltet ihr mit einem normalen Trailer den Giants Helfer (blaues Lenkrad) aktiv haben, könnt ihr durch anklicken des Textes die Abladestation durchschalten.
+C: Ab welchem Drescherfüllstand soll der Abfahrer zum Drescher fahren.
+D: Horizontaler Abstand zum Drescher.
+E: Vertikaler Abstand zum Drescher.
 "/>
     <text name="CP_help_page_customField_title" text="Custom Fields"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -659,6 +679,10 @@ To unmark the waypoints, click the right mouse button.
 3) A brush to insert a curve of waypoints between two selected waypoints.
 Just like moving more waypoints, mark 2 waypoints, then hold the left mouse button and move the mouse.
 Attention: As soon as you release the mouse button, the waypoints will be set, this can't be undone! (of course you can delete those waypoints.)
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

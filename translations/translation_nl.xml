@@ -478,25 +478,35 @@ For deleting a course or directory click on the delete button and after that the
 Directories must be empty if you want to delete them.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Als u op de voertuignaam klikt, wordt de pagina met voertuigconfiguraties geopend.
-B: Wissel met één klik waar de koers moet beginnen.
-C: Door op de koersnaam te klikken, opent u het AI-menu met de koersgenerator open.
-D: Start de Courseplay-helper.
-E: Toont huidige tussenpunt / totaal aantal tussenpunten. Klik om de koersmanager te openen.
-F: Als u op het pictogram klikt, wordt de pagina met algemene instellingen geopend.
-G: Sluit de HUD.
-H: Verklein en vergroot de werkbreedte. Een rode lijn op uw voertuig geeft de huidige instelling aan.
-I: Waarde voor horizontale offset, + links, - rechts.
-J: Copy and paste a course to a different vehicle.
-     Once the copy button was pressed, then the course can be pasted into a vehicle without a course when the icon turns green.
-K en L: Als u op de tekst klikt, worden uw wijzigingen teruggezet naar de automatische waarden.
-M: Shows the copied course.
-N: Dit gebied toont de baanverschuiving als u een koers met meerdere voertuigen hebt geladen. Als u op de tekst klikt, worden de posities omgeschakeld.
-O: Start/stop recording a custom field course.
-P: Removes course from vehicle.
-Q: Changes the course visibility between: on, off and start/stop only.
-R: Removes the copied course from the clipboard.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Custom Fields"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -649,6 +659,10 @@ Under the advanced category are:
 1) A brush to move multiple waypoints in between to selected waypoints.
 2) A brush to insert a curve of waypoints between to selected waypoints.
 3) A brush to set the turn attribute of a waypoint(only with a course and not a custom field).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

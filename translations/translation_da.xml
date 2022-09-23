@@ -477,25 +477,35 @@ For at slette en rute eller mappe, klik på slet-knappen og derefter den mappe e
 Mapper skal være tomme, hvis du vil slette dem.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Klik på køretøjets navn for at hente køretøjsindstillingerne.
-B: Ændrer startpositionen, når du klikker på den.
-C: Ved at klikke på rutenavnet kaldes hjælpermenuen frem med rutegeneratoren åben.
-D: Start Courseplay hjælper.
-E: Viser: aktuelle vejpunkt / alle vejpunkter. Klik for at åbne rutemanageren.
-F: Ved at klikke på ikonet åbnes de grundindstillinger.
-G: Lukke HUD.
-H: Reducerer eller øger arbejdsbredden. En rød streg på køretøjet viser indstillingen.
-I: Vandret offset værdi, + venstre, - højre.
-J: Kopiér og indsæt en rute i et andet køretøj.
-     Når først kopieringsknappen blev trykket, kan banen indsættes i et køretøj uden en rute, når ikonet bliver grønt.
-K og L: Klik på teksten for at nulstille værdierne.
-M: Visser den kopierede rute.
-N: Det er her baneforskydningen vises, hvis et konvojforløb er blevet indlæst. Ved at klikke på teksten ændres banen.
-O: Start/stop Optegning af brugerdefineret mark.
-P: Fjern rute fra køretøj
-Q: Ændrer rutens synlighed mellem: tændt, slukket og kun start/stop.
-R: Fjerner den kopierede rute fra udklipsholderen.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Brugerdefineret marker"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -644,6 +654,10 @@ Under the advanced category are:
 1) A brush to move multiple waypoints in between to selected waypoints.
 2) A brush to insert a curve of waypoints between to selected waypoints.
 3) A brush to set the turn attribute of a waypoint(only with a course and not a custom field).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

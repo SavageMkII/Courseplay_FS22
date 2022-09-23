@@ -478,25 +478,35 @@ För att radera en kurs eller katalog klicka på knappen Radera och efter det at
 Kataloger måste vara tomma om du vill radera dem.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Om du Klickar på Fordonets namn Öppnar Fordonskonfigurationssidan.
-B: Växla var Kursen Ska startas med ett klick.
-C: OM DU Klickar på Coursename Öppnar du Ai-Menyn med kursgeneratorn Öppen.
-D: start Kurspelhjälpen.
-E: Visar Aktuella Waypoint / TotalA Waypoints. Klicka för att tycka att Öppna Kurshanteraren.
-F: Klicka på ikonen Öppnar Sidan Allmänna Inställningar.
-G: Stänger Hud.
-H: Minska och Öka Arbetsbedden. SV Röd Linje på Ditt Fordon Visar den Aktuella Inställningen.
-I: Värde för Horisontell Förskjutning, + Vänster, - Höger.
-J: Kopiera och klistra in en kurs till ett annat fordon.
-     När kopieringsknappen tryckts, kan kursen klistras in i ett fordon utan kurs när ikonen blir grön.
-K och L: Om du klickar på Texten Återställs Dina Ändringar I Bilvärddena.
-M: Visar den kopierade kursen.
-N: Detta OMRÅDE Visar Körfältets Offset OM Du Har en Multitool-Kurs. Genom att klicka på Texten Växlar positionerna.
-O: Start / Sluta Spela i en anpassad Fältkurs.
-P: Tar Bort Kurs från Fordon.
-Fråga: Ändrar kursens synlighet mellan: ON, OFF och START / STOPP.
-R: Ta bort den kopierade kursen från urklippet.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Anpassade fält"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -647,6 +657,10 @@ Under den avancerade kategorin finns:
 1) En pensel för att flytta flera waypoints mellan till valda waypoints.
 2) En pensel för att infoga en kurva av waypoints mellan till valda waypoints.
 3) En pensel för att ställa in svängattributet för en waypoint (endast med en kurs och inte ett anpassat fält).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

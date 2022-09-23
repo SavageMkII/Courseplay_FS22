@@ -476,25 +476,35 @@ Pro smazání kurzu nebo adresáře klikněte na tlačítko smazat a poté na sl
 Adresáře musí být prázdné, pokud je chcete smazat.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Kliknutím na název vozidla se otevře stránka konfigurace vozidla.
-B: Jedním kliknutím vyberte, kde má začít trasa.
-C: Kliknutím na název trasy otevřete nabídku AI s otevřeným generátorem trasy.
-D: Spusťte pomocníka Courseplay.
-E: Zobrazuje aktuální trasový bod / celkový počet trasových bodů. Kliknutím otevřete správce trasy.
-F: Kliknutím na ikonu se otevře stránka obecných nastavení.
-G: Zavře Hud.
-H: Snižte a zvětšete pracovní šířku. Červená čára na vašem vozidle ukazuje aktuální nastavení.
-I: Hodnota pro horizontální posun, + vlevo, - vpravo.
-J: Zkopírujte a vložte kurz do jiného vozidla.
-      Jakmile bylo stisknuto tlačítko kopírování, lze kurz vložit do vozidla bez kurzu, když se ikona změní na zelenou.
-K a L: Kliknutím na text resetujete změny na automatické hodnoty.
-M: Zobrazuje zkopírovaný kurz.
-N: Tato oblast zobrazuje odsazení jízdního pruhu, pokud máte načtený kurz s více nástroji. Kliknutím na text přepnete pozice.
-O: Spuštění/zastavení záznamu vlastní trasy na poli.
-P: Odstraňuje trasu z vozidla
-Q: Mění viditelnost kurzu mezi: zapnuto, vypnuto a pouze start/stop.
-R: Odebere zkopírovaný kurz ze schránky.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Vlastní pole"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -647,6 +657,10 @@ Pod pokročilou kategorií jsou:
 1) Štětec pro přesun více trasových bodů mezi vybrané trasové body.
 2) Štětec pro vložení křivky trasových bodů mezi vybrané trasové body.
 3) Štětec pro nastavení atributu otočení trasového bodu (pouze s kurzem a ne vlastním polem).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

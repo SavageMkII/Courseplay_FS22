@@ -481,28 +481,48 @@ Um einen Kurs oder Ordner umzubenennen, brauchst du bloß auf &quot;Umbenennen&q
 Einen Kurs oder Ordner zu löschen geht ähnlich einfach. Klicke auf den &quot;Löschen&quot;-Button und dann auf den Ordner oder Kurs, der gelöscht werden soll.
 Ordner müssen leer sein damit sie gelöscht werden können.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini-HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Mit einem Klick auf den Fahrzeugnamen, gelangst du direkt in das Menü mit den Fahrzeugeinstellungen.
-B: Schaltet die Startpunkte für den Helfer durch.
-C: Klickst du auf den Kursnamen oder auf &quot;kein Kurs&quot; wird das Helfermenü geöffnet.
-     Wenn das Fahrzeug auf dem Feld steht, wird auch direkt der Kursgenerator geöffnet.
-D: Startet oder stoppt den Helfer. Ist der Pfeil grün, ist der Helfer aktiv.
-E: Zeigt den aktuellen Wegpunkt / alle Wegpunkte des Kurses. Klickt man drauf, öffnet sich der Kursmanager.
-F: Klickst du auf das Icon, öffnen sich die globalen Einstellungen.
-G: Schließt das HUD.
-H: Erhöht oder verringert die Arbeitsbreite. Eine rote Linie auf dem Fahrzeug zeigt den aktuellen Wert an.
-I: Wert für den horizontalen Versatz, + links, - rechts.
-J: Kurs kopieren und einfügen in ein anderes Fahrzeug.
-     Wenn der Kurs kopiert wurde, kann dieser in ein anderes Fahrzeug eingefügt werden (&quot;Einfügen&quot;-Button leuchtet grün).
-K und L: Durch einen Klick auf den Text wird der Standardwert geladen.
-M: Zeigt den Namen des kopierten Kurses.
-N: An dieser Stelle wird die Bahn eines Multitoolkurses angezeigt, wenn einer geladen wurde.
-     Die Position lässt sich durch einen Klick auf den Text ändern.
-O: Startet und stoppt die Aufnahme eines eigenen Feldrandkurses.
-P: Entfernt den Kurs aus dem Fahrzeug.
-Q: Ändert die Kursanzeige der Wegpunkte zwischen: an, aus und nur Start/Stopp.
-R: Entfernt den kopierten Kurs aus der Zwischenablage.
+    <text name="CP_help_page_minihud_title" text="Mini-HUDs"/>
+    <text name="CP_help_page_minihud_general_info" text="
+Generelle Info über das HUD und diese Seite.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+A: Durch das klicken auf den Text wird der Startpunkt durchgeschaltet.
+B: Zeigt &quot;kein Kurs&quot; oder den Namen des geladenen Kurses. Die beiden Striche rechts davon Zeigen den aktuellen Wegpunkt und die gesamtzahl der Wegpunkte vom Kurs. Durch anklicken der Striche, gelangt ihr in den Kursmanager.
+C: Hier könnt ihr die Arbeitsbreite anpassen, mit den Tasten + und - oder durch Scrollen mit dem Mausrad, solange der Mauszeiger auf der Zahl steht. Habt ihr euch vertan, setzt ihr die original erkannte Arbeitsbreite durch einen klick auf den Text zurück.
+D: Der horizontale Versatz wird genauso wie die Arbeitsbreite bedient.
+E: In dieser Zeile findet ihr die Kurs kopieren funktion. Ist ein Kurs im Fahrzeug geladen, könnt ihr diesen mit dem Icon rechts kopieren und er wird im HUD angezeigt. Danach könnt ihr den Kurs entweder aus der Zwischenablage entfernen, oder in belibig viele andere Fahrzeuge einfügen.
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+A: Der Ballen sammeln und wickeln Modus, kann mit oder ohne Kurs benutzt werden. Ist ein Kurs geladen, könnt ihr auch hier den Startpunkt durchschalten.
+B: Diese Zeile funktioniert genauso wie im Feldarbeitsmodus.
+C: Der Ballentyp bestimmt, ob ihr alle, nur gewickelte oder nur ungewickelte Ballen landen möchtet.
+D: Der horizontale Versatz wird genauso wie die Arbeitsbreite bei Feldarbeit bedient.
+E: Die kopierfunktion ist auch im Modus Ballen sammeln und wickeln verfügbar.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+A: Hier ist nur der Informationstext um den Modus an zu zeigen. (Drescher abtanken)
+B: Solltet ihr mit einem normalen Trailer den Giants Helfer (blaues Lenkrad) aktiv haben, könnt ihr durch anklicken des Textes die Abladestation durchschalten.
+C: Ab welchem Drescherfüllstand soll der Abfahrer zum Drescher fahren.
+D: Horizontaler Abstand zum Drescher.
+E: Vertikaler Abstand zum Drescher.
 "/>
     <text name="CP_help_page_customField_title" text="Selbst erstellte Felder"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -662,6 +682,10 @@ Um die Markierung aufzuheben, betätige einfach die rechte Maustaste.
 3) Ein Pinsel um eine Kurve von Wegpunkten einzufügen.
 Wie auch beim Bewegen mehrerer Wegpunkte, markierst du zunächst 2 Wegpunkte, anschließend hältst du die linke Maustaste gedrückt und bewegst die Maus.
 Achtung: Sobald du loslässt, werden die Wegpunkte abgesetzt, dies kann nicht rückgängig gemacht werden! (Wegpunkte lassen sich natürlich löschen.)
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Drescher abtanken"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

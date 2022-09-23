@@ -478,25 +478,35 @@ Aby usunąć kurs lub folder, kliknij przycisk Usuń, a następnie folder lub ku
 Foldery muszą być puste, jeśli chcesz je usunąć.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Kliknięcie nazwy pojazdu otwiera stronę konfiguracji pojazdu.
-B: Przełącz miejsce rozpoczęcia kursu jednym kliknięciem.
-C: Klikając na nazwę kursu, otworzysz menu pomocników SI z otwartym generatorem kursów.
-D: Uruchom pomocnika Courseplay.
-E: Pokazuje aktualne/wszystkie punkty trasy. Kliknij aby otworzyć menadżer kursów.
-F: Kliknięcie na ikonę otwiera stronę z głównymi ustawieniami.
-G: Zamyka HUD.
-H: Zwiększa i zmniejsza szerokość roboczą. Czerwona linia na twoim pojeździe pokazuje obecne ustawienia.
-I: Wartość przesunięcia horyzontalnego, + w lewo, - w prawo.
-J: Skopiuj i załaduj kurs do innego pojazdu.
-     Po naciśnięciu przycisku kopiowania kurs można załadować go do pojazdu bez kursu, gdy ikona zmieni kolor na zielony.
-K i L: Kliknięcie na tekst zresetuje ustawienia do wartości automatycznych.
-M: Pokazuje skopiowany kurs.
-N: Ten obszar pokazuje przesunięcie linii jeśli masz załadowany kurs dla wielu narzędzi. Kliknięcie na tekst przełącza pozycję.
-O: Rozpocznij/Zakończ nagrywanie nowego pola.
-P: Usuń kurs z pojazdu.
-Q: Zmienia widoczność kursu między: Włączony, Wyłączony i tylko Start/Stop.
-R: Usuwa skopiowany kurs ze schowka.
+    <text name="CP_help_page_minihud_general_info" text="
+General Info about the HUD and this Page.
+"/>
+    <text name="CP_help_page_minihud_head" text="
+Beschreibt die Kopfzeile.
+"/>
+    <text name="CP_help_page_minihud_icon_play" text="
+CP starten mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_record" text="
+Kurs aufzeichnen mit Bedingungen etc.
+"/>
+    <text name="CP_help_page_minihud_icon_copypaste" text="
+Copy Paste Beschreibung.
+"/>
+    <text name="CP_help_page_minihud_icon_drivenow" text="
+Sofort Abfahren.
+"/>
+    <text name="CP_help_page_minihud_icon_giants_helper" text="
+Einschalten vom Giants Helfer mit Infos.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+Special stuff on HUD about Fieldwork
+"/>
+    <text name="CP_help_page_minihud_balecollectwrap_text" text="
+Special stuff on HUD about Bale collect and wrap.
+"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+Special stuff on HUD about combine unload.
 "/>
     <text name="CP_help_page_customField_title" text="Nowe pola"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -649,6 +659,10 @@ W kategorii zaawansowanej znajdują się:
 1) Pędzel do przenoszenia wielu punktów pomiędzy wybranymi punktami trasy.
 2) Pędzel do wstawiania krzywej punktów trasy pomiędzy wybranymi punktami trasy.
 3) Pędzel do ustawienia atrybutu zawracania dla punktu trasy (tylko dla kurs, a nie własnych pól).
+"/>
+    <text name="CP_help_page_combine_unload_title" text="Combine unload"/>
+    <text name="CP_help_page_combine_unload_text" text="
+Drescher abtanken.
 "/>
     <!---->
     <!--Input bindings-->

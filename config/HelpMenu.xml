@@ -67,11 +67,52 @@
 		<!--Courseplay minihud-->
 		<page title="$l10n_CP_help_page_minihud_title">
 			<paragraph>
-				<text text="$l10n_CP_help_page_blank"/>
-				<image filename="img/helpmenu/minihudhelp.dds" size="1024 1024" uvs="0px 0px 765px 510px"/>
+				<text text="$l10n_CP_help_page_minihud_general_info"/>
+			</paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_head"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
             </paragraph>
 			<paragraph>
-				<text text="$l10n_CP_help_page_minihud_text"/>
+				<text text="$l10n_CP_help_page_minihud_icon_play"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_icon_record"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_icon_copypaste"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_icon_drivenow"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_icon_giants_helper"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_blank"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="1024 1024" uvs="0px 100px 479px 300px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_fieldwork_text"/>
+			</paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_blank"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="1024 1024" uvs="0px 409px 479px 300px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_balecollectwrap_text"/>
+			</paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_blank"/>
+				<image filename="img/helpmenu/minihudhelp.dds" size="1024 1024" uvs="0px 717px 479px 300px"/>
+            </paragraph>
+			<paragraph>
+				<text text="$l10n_CP_help_page_minihud_combineunload_text"/>
 			</paragraph>
 		</page>
 		<!--Courseplay customField-->
@@ -184,6 +225,12 @@
 			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_editorAdvanced_text"/>
+			</paragraph>
+		</page>
+		<!--Courseplay Combine unload-->
+		<page title="$l10n_CP_help_page_combine_unload_title">
+			<paragraph>
+				<text text="$l10n_CP_help_page_combine_unload_text"/>
 			</paragraph>
 		</page>
 	</category>
