@@ -70,6 +70,7 @@
 				<text text="$l10n_CP_help_page_minihud_general_info"/>
 			</paragraph>
 			<paragraph>
+			<!--dataS/menu/hud/mapHotspots.png-->
 				<text text="$l10n_CP_help_page_minihud_head"/>
 				<image filename="img/helpmenu/minihudhelp.dds" size="20 20" uvs="0px 10px 10px 10px"/>
             </paragraph>
